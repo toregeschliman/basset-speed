@@ -1,0 +1,15 @@
+{
+  "name": "BASSETSpeed",
+  "description": "Speed up BASSET Certification, now with more stuffs.",
+  "version": "0.2",
+  "permissions": [
+    "https://player.360training.com/*"
+  ],
+  "content_scripts": [
+    {
+    "matches": ["https://player.360training.com/*"],
+    "css": ["mybasset.css"]
+    }
+    ],
+  "manifest_version": 2
+}
